@@ -4,7 +4,7 @@ import { PiHeartbeatBold } from "react-icons/pi";
 
 export default function(){
     return(
-        <div className=" grid grid-cols-4  bg- w-85/100 h-200 mx-auto my-50  [&>div]:h-94 [&>div]: ">
+        <div className=" grid grid-cols-4 w-85/100 h-200 mx-auto my-50  [&>div]:h-94 [&>div]: ">
             <div className=" m-3 pt-3 col-span-2 border-t border-gray-300 bg-">
                 <p className="text-gray-400 m-0">Services</p>
                 <br />

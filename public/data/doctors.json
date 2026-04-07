@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "MOHAMMAD HUJAIFA",
+        "department": "Obstetrics & Gynaecology",
+        "designation": "Senior Consultant",
+        "image": "/doctorsImages/istockphoto-1468678624-612x612.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "ASAD UZ ZAMAN MUNNA",
+        "department": "Cardiology",
+        "designation": "Consultan",
+        "image": "/doctorsImages/portrait-highlighting-african-american-doctors-set-against-white-background-photo.jpeg"
+    },
+
+    {
+        "id": 3,
+        "name": "ABDUS SALAM",
+        "department": "Cardiology",
+        "designation": "Consultan",
+        "image": "/doctorsImages/portrait-of-a-stern-and-serious-asian-male-doctor-on-the-background-of-a-modern-outdoor-clinic-photo.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "MD SALIM",
+        "department": "Cardiology",
+        "designation": "Consultan",
+        "image": "/doctorsImages/360_F_707893394_5DEhlBjWOmse1nyu0rC9T7ZRvsAFDkYC.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "ASAD UZ ZAMAN MUNNA",
+        "department": "Cardiology",
+        "designation": "Consultan",
+        "image": "/doctorsImages/portrait-highlighting-african-american-doctors-set-against-white-background-photo.jpeg"
+    },
+
+    {
+        "id": 6,
+        "name": "ABDUS SALAM",
+        "department": "Cardiology",
+        "designation": "Consultan",
+        "image": "/doctorsImages/portrait-of-a-stern-and-serious-asian-male-doctor-on-the-background-of-a-modern-outdoor-clinic-photo.jpg"
+    }
+]

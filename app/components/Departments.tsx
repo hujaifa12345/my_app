@@ -4,6 +4,12 @@ import { IoMdArrowForward } from "react-icons/io";
 
 
 export default function Departments(){
+
+
+
+
+
+    
     return(
         <div className="flex items-center justify-center w-full h-400 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg')"}}>
         
