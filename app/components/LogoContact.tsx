@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { TfiEmail } from "react-icons/tfi";
 import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineComment } from "react-icons/ai";
@@ -8,7 +9,9 @@ export default function LogoContact(){
   return(
    
     <div className="w-85/100 h-[100px] flex justify-between mx-auto  ">
-      <img src="/logo.svg" alt="company logo" className="h-[60px] my-auto" />
+      <Link href="/" className="h-[60px] my-auto">
+        <img src="/logo.svg" alt="company logo" className="h-[60px] my-auto" />
+      </Link>  
       <ul className="flex gap-[35px] my-auto ">
 
         <li><button className=" flex text-[15px] border px-[10px] py-[7px] rounded-3xl hover:bg-[#0090ca] hover:text-white transition "><TfiEmail className=" text-[20px] mt-[2px] mr-1.5"/>info@unicohospitals.com</button></li>

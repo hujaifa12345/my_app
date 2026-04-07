@@ -8,7 +8,15 @@ import { IoMdArrowForward } from "react-icons/io";
 
 export default function Doctors(){
 
-    const [doctors, setDoctors] = useState([]);
+    type Doctors = {
+        id: number;
+        name: string;
+        department: string;
+        designation: string;
+        image: string;
+    }
+
+    const [doctors, setDoctors] = useState<Doctors[]>([]);
 
     useEffect(()=>{
         fetch("/data/doctors.json")
@@ -38,7 +46,7 @@ export default function Doctors(){
                      {doctors.slice(0, 6).map((doc)=>(
                         <div 
                          key={doc.id}
-                         className="h-full w-[240px] bg-[#0B3C66] text-white text-center px-6 py-6 rounded-xl hover:scale-104 transition duration-300"
+                         className="h-full w-60 bg-[#0B3C66] text-white text-center px-6 py-6 rounded-xl hover:scale-104 transition duration-300"
                         >
                          
                             <img 
