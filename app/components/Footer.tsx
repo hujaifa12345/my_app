@@ -133,7 +133,7 @@ export default function Footer(){
 
                 <div className="flex pt-7.5">
                     <div className="w-[25%]">
-                        <img src="/unico-white-logo-.svg" alt="logo" />
+                        <img src="/unico-logo-white.svg" alt="logo" />
                     </div>
                     <div className=" flex flex-col gap-2 w-[25%] text-[11px] text-white">
                         <h6>©2026 Unico Hospitals. All Rights Reserved</h6>
