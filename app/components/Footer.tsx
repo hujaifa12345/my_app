@@ -64,17 +64,17 @@ export default function Footer(){
                         </ul>
                     </div>
                     <div>
-                        <ul className="flex flex-col gap-4.5">
+                        <ul className="flex flex-col gap-5">
                             <li>
-                                <button className="flex items-center text-[15px] h-11 w-[100%]  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><FaUserDoctor className="mr-2" />Find A Doctor <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><FaUserDoctor className="mr-2" />Find A Doctor <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
                                 </button>
                             </li>
                             <li>
-                                <button className="flex items-center text-[15px] h-11 w-[100%]  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><MdLocalFireDepartment className="mr-2" />Explore Departments <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><MdLocalFireDepartment className="mr-2" />Explore Departments <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
                                 </button>
                             </li>
                             <li>
-                                <button className="flex items-center text-[15px] h-11 w-[100%]  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><LuPackageOpen className="mr-2" />uratede Packages <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition relative "><LuPackageOpen className="mr-2" />uratede Packages <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
                                 </button>
                             </li>                           
                         </ul>
