@@ -132,17 +132,25 @@ export default function Footer(){
 
 
                 <div className="flex pt-7.5">
+
                     <div className="w-[25%]">
-                        <img src="/unico-logo-white.svg" alt="logo" />
+                        <img 
+                        src="/unico-logo-white.png" 
+                        alt="logo" 
+                        className="h-10.5" 
+                        />
                     </div>
+
                     <div className=" flex flex-col gap-2 w-[25%] text-[11px] text-white">
                         <h6>©2026 Unico Hospitals. All Rights Reserved</h6>
                         <a href=""   className="hover:text-[#0090ca] duration-400">Designed & Developed by Dcastalia </a>
                     </div>
+
                     <div className="w-[50%] text-white text-[11px]">
                         <p>Unico Hospitals PLC, established in June 2008 as a Public Limited Company, aims to create a   state-of-the-art, 250-bed multi-speciality hospital offering comprehensive healthcare services. 
                         </p>                      
                     </div>
+
                 </div>
             </div>
         </footer>

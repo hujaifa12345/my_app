@@ -1,5 +1,3 @@
-
-
 import LogoContact from "../components/LogoContact"
 import NavBar from "../components/NavBar"
 
