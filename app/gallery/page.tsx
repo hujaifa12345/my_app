@@ -32,26 +32,14 @@ export default function Gallery(){
             <div className="grid grid-cols-3 gap-7 w-[85%] mx-auto my-50 ">
 
                 <div className="w-130  overflow-hidden">
-
-                    <img 
-                    src="/Gallery-Image.png" 
-                    alt="Gallery-Image" 
-                    className="w-full rounded-md hover:scale-110 transition duration-1000"
-                    />
-
-                    <h2 className="my-3 text-[24px] text-gray-700">
-                        World Heart Day 2025 Celebration at Unico Hospital
-                    </h2>
-
-                </div>
-
-                <div className="w-130  overflow-hidden">
-
-                    <img 
-                    src="/Gallery-Image.png" 
-                    alt="Gallery-Image" 
-                    className="w-full rounded-md hover:scale-110 transition duration-1000"
-                    />
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
 
                     <h2 className="my-3 text-[24px] text-gray-700">
                         World Heart Day 2025 Celebration at Unico Hospital
@@ -60,26 +48,14 @@ export default function Gallery(){
                 </div>
 
                 <div className="w-130  overflow-hidden">
-
-                    <img 
-                    src="/Gallery-Image.png" 
-                    alt="Gallery-Image" 
-                    className="w-full rounded-md hover:scale-110 transition duration-1000"
-                    />
-
-                    <h2 className="my-3 text-[24px] text-gray-700">
-                        World Heart Day 2025 Celebration at Unico Hospital
-                    </h2>
-
-                </div>
-
-                <div className="w-130  overflow-hidden">
-
-                    <img 
-                    src="/Gallery-Image.png" 
-                    alt="Gallery-Image" 
-                    className="w-full rounded-md hover:scale-110 transition duration-1000"
-                    />
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
 
                     <h2 className="my-3 text-[24px] text-gray-700">
                         World Heart Day 2025 Celebration at Unico Hospital
@@ -88,12 +64,126 @@ export default function Gallery(){
                 </div>
 
                 <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
 
-                    <img 
-                    src="/Gallery-Image.png" 
-                    alt="Gallery-Image" 
-                    className="w-full rounded-md hover:scale-110 transition duration-1000"
-                    />
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
+
+                    <h2 className="my-3 text-[24px] text-gray-700">
+                        World Heart Day 2025 Celebration at Unico Hospital
+                    </h2>
+
+                </div>
+
+                <div className="w-130  overflow-hidden">
+                    
+                    <div className="h-73 rounded-md overflow-hidden">
+                        <img 
+                        src="/Gallery-Image.png" 
+                        alt="Gallery-Image" 
+                        className="w-full  hover:scale-110 transition duration-1000"
+                        />
+                    </div>
 
                     <h2 className="my-3 text-[24px] text-gray-700">
                         World Heart Day 2025 Celebration at Unico Hospital

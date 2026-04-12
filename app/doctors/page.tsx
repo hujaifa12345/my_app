@@ -6,6 +6,7 @@ import NavBar from "../components/NavBar"
 import { IoSearchSharp } from "react-icons/io5";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 
@@ -52,16 +53,16 @@ export default function Doctors(){
 
             <div className="w-[85%] mx-auto ">
                 <div className=" flex items-center justify-between h-40 ">
-                    <select
-                    name="department"
-                    id="department"
-                    className="bg-white border border-[#023059] text-[#023059] h-10 w-65 px-3 rounded-full outline-none"
-                    >
-                    <option value="">Select Department</option>
-                    <option value="cardiology">Cardiology</option>
-                    <option value="neurology">Neurology</option>
-                    <option value="orthopedic">Orthopedic</option>
-                    </select>
+                    
+                        <div className="flex items-center px-5 border rounded-full">
+                                <input 
+                                     type="text" 
+                                    placeholder="Select a Department"
+                                    className="h-9 w-55 outline-0" 
+                                />
+                                <IoIosArrowDown />
+                        </div>
+                    
                     
                     <div className="flex items-center gap-2 text-white font-bold h-10 w-65 bg-[#023059] rounded-full px-3">
   
@@ -97,5 +98,6 @@ export default function Doctors(){
             </div> 
             <Footer/>
         </div>
+        
     )
 }

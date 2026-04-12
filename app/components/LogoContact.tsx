@@ -14,9 +14,9 @@ export default function LogoContact(){
       </Link>  
       <ul className="flex gap-[35px] my-auto ">
 
-        <li><button className=" flex text-[15px] border px-[10px] py-[7px] rounded-3xl hover:bg-[#0090ca] hover:text-white transition "><TfiEmail className=" text-[20px] mt-[2px] mr-1.5"/>info@unicohospitals.com</button></li>
+        <li><button className=" flex text-[15px] border px-[10px] py-[7px] rounded-3xl hover:bg-[#0090ca] hover:text-white transition "><TfiEmail className=" text-[16px] mt-1 mr-1.5"/>info@unicohospitals.com</button></li>
 
-        <li><button className=" flex text-[15px] border px-[10px] py-[7px] rounded-3xl hover:bg-[#0090ca] hover:text-white transition"> <IoCallOutline className=" text-[20px] mt-[1px] mr-1.5"/>096 77 66 11 66 </button></li>
+        <li><button className=" flex text-[15px] border px-[10px] py-[7px] rounded-3xl hover:bg-[#0090ca] hover:text-white transition"> <IoCallOutline className=" text-[18px] mt-0.5 mr-1.5"/>096 77 66 11 66 </button></li>
 
         <li><button className=" flex bg-[#0090ca] text-[16px] text-amber-50 px-[25px] py-[6px] rounded-3xl hover:bg-[#31b3a4] hover:text-white transition ">Ask a Question <AiOutlineComment className=" text-[26px] mt- ml-1.5"/> </button></li>
 
