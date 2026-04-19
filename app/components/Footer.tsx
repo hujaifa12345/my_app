@@ -2,7 +2,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import { FaUserDoctor } from "react-icons/fa6";
 import { MdLocalFireDepartment } from "react-icons/md";
 import { LuPackageOpen } from "react-icons/lu";
-
+import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -20,7 +20,7 @@ export default function Footer(){
                 <div className=" flex w-full h-[78%] bg- border-b border-b-white/20 [&>div]:h-full [&>div]:w-[25%] ">
                     <div>
                         <h2 className="text-white/50 mb-3">Navigate</h2>
-                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold">
+                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold [&>li]:hover:text-[#31b3a4]">
                             <li>Home</li>
                             <li>About Us</li>
                             <li>News & Events</li>
@@ -30,7 +30,7 @@ export default function Footer(){
                     </div>
                     <div>
                         <h2 className="text-white/50 mb-3">For Patients</h2>
-                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold">
+                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold [&>li]:hover:text-[#31b3a4]">
                             <li>Our Services</li>
                             <li>Our Departments</li>
                             <li>Our Doctors</li>
@@ -39,7 +39,7 @@ export default function Footer(){
                     </div>
                     <div>
                         <h2 className="text-white/50 mb-3">Visit Us</h2>
-                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold">
+                        <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:text-white [&>li]:font-bold [&>li]:hover:text-[#31b3a4]">
                             <li>
                                 <p>Unico Hospitals PLC. <br /> 23 Bir Uttam K. M. Shafiullah Sarak (Green Road) <br /> Dhaka-1205, Bangladesh
                                 </p>
@@ -50,13 +50,13 @@ export default function Footer(){
                         <h2 className="text-white/50 mb-3">Contact Us</h2>
                         <ul className="flex flex-col gap-3 [&>li]:text-[14px] [&>li]:font-bold">
                             <li>
-                                <ul className="[&>li]:text-white">
+                                <ul className="[&>li]:text-white [&>li]:hover:text-[#31b3a4]">
                                     <li>info@unicohospitals.com</li>
                                     <li>career@unicohospitals.com</li>
                                 </ul>
                             </li> 
                             <li>
-                                <ul className="[&>li]:text-white">
+                                <ul className="[&>li]:text-white [&>li]:hover:text-[#31b3a4]">
                                     <li>096 77 66 11 66</li>
                                     <li>096 77 66 11 66</li>
                                 </ul>
@@ -66,15 +66,45 @@ export default function Footer(){
                     <div>
                         <ul className="flex flex-col gap-5">
                             <li>
-                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition"><FaUserDoctor className="mr-2" />Find A Doctor <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button 
+                                    className="flex items-center justify-between text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition">
+                                        <div className="flex items-center">
+                                            <FaUserDoctor 
+                                            className="mr-2" 
+                                            />
+                                            <Link href="/doctors">Find A Doctor</Link>
+                                        </div> 
+                                        <IoMdArrowForward 
+                                        className=" flex my-auto  " 
+                                        />                           
                                 </button>
                             </li>
                             <li>
-                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition"><MdLocalFireDepartment className="mr-2" />Explore Departments <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button 
+                                    className="flex items-center justify-between text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition">
+                                        <div className="flex items-center">
+                                            <MdLocalFireDepartment 
+                                            className="mr-2" 
+                                            />
+                                            <Link href="/department">Explore Departments</Link>
+                                        </div> 
+                                        <IoMdArrowForward 
+                                        className=" flex my-auto  " 
+                                        />                           
                                 </button>
                             </li>
                             <li>
-                                <button className="flex items-center text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition"><LuPackageOpen className="mr-2" />uratede Packages <IoMdArrowForward className=" flex ml-my-auto absolute right-5 " />                           
+                                <button 
+                                    className="flex items-center justify-between text-[15px] h-10 w-full  px-6 bg-white text-[#023059] font-bold rounded-full hover:text-white hover:bg-[#31b3a4] transition">
+                                        <div className="flex items-center">
+                                            <LuPackageOpen 
+                                            className="mr-2" 
+                                            />
+                                            <Link href="/packages">Curated Packages</Link>
+                                        </div> 
+                                        <IoMdArrowForward 
+                                        className=" flex my-auto  " 
+                                        />                           
                                 </button>
                             </li>                           
                         </ul>
@@ -88,7 +118,7 @@ export default function Footer(){
                                     href="https://www.facebook.com/ioniccorporation"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#0090ca] hover:border-[#0090ca] duration-400"
+                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#31b3a4] hover:border-[#31b3a4] duration-400"
                                     >
                                     <FaFacebookF />
                                     </a>
@@ -98,7 +128,7 @@ export default function Footer(){
                                     href="https://www.instagram.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#0090ca] hover:border-[#0090ca] duration-400"
+                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#31b3a4] hover:border-[#31b3a4] duration-400"
                                     >
                                     <FaInstagram />
                                     </a>
@@ -108,7 +138,7 @@ export default function Footer(){
                                     href="https://www.linkedin.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#0090ca] hover:border-[#0090ca] duration-400"
+                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#31b3a4] hover:border-[#31b3a4] duration-400"
                                     >
                                     <FaLinkedinIn />
                                     </a>
@@ -118,7 +148,7 @@ export default function Footer(){
                                     href="https://www.youtube.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#0090ca] hover:border-[#0090ca] duration-400"
+                                    className="h-7 w-7 flex items-center justify-center text-white border border-white rounded-full hover:bg-[#31b3a4] hover:border-[#31b3a4] duration-400"
                                     >
                                     <FaYoutube />
                                     </a>
@@ -133,20 +163,20 @@ export default function Footer(){
 
                 <div className="flex pt-7.5">
 
-                    <div className="w-[25%]">
+                    <Link href="/" className="w-[25%]">
                         <img 
                         src="/unico-logo-white.png" 
                         alt="logo" 
-                        className="h-10.5" 
+                        className="h-10.5 rounded-md" 
                         />
-                    </div>
+                    </Link>
 
                     <div className=" flex flex-col gap-2 w-[25%] text-[11px] text-white">
-                        <h6>©2026 Unico Hospitals. All Rights Reserved</h6>
-                        <a href=""   className="hover:text-[#0090ca] duration-400">Designed & Developed by Dcastalia </a>
+                        <h6 className="hover:text-[#31b3a4]">©2026 Unico Hospitals. All Rights Reserved</h6>
+                        <a href="https://ioniccorporation.com" target="_blank" rel="noopener noreferrer"   className="hover:text-[#31b3a4] duration-400">Designed & Developed by Ionic Corporation </a>
                     </div>
 
-                    <div className="w-[50%] text-white text-[11px]">
+                    <div className="w-[50%] text-white text-[11px] hover:text-[#31b3a4]">
                         <p>Unico Hospitals PLC, established in June 2008 as a Public Limited Company, aims to create a   state-of-the-art, 250-bed multi-speciality hospital offering comprehensive healthcare services. 
                         </p>                      
                     </div>

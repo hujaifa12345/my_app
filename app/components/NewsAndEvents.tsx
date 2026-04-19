@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
 
 
@@ -18,7 +19,7 @@ return(
                  <h1 className="text-5xl font-bold mt-7">Insights from Unico</h1>
             </div>
 
-            <button className="flex text-[15px] h-10 items-center px-6 mb-6 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Departments <IoMdArrowForward className=" flex my-auto ml-2" /></button>
+            <Link href="/newsAndEvents" className="flex text-[15px] h-10 items-center px-6 mb-6 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Articles<IoMdArrowForward className=" flex my-auto ml-2" /></Link>
         </div>
 
         <div className="h-180 w-full ">

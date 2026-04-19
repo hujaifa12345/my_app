@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 
@@ -22,7 +23,7 @@ export default function Departments(){
                 <div className="flex ">
                     <div className="bg- w-[50%] h-250 ">
                         <ul className="w-[92%] h-full py-20">
-                            <li className="border-b" >
+                            <Link href="/ENT-&-Head-Neck-Surgery" className="border-b" >
                                 <div className="group w-full h-30  hover:bg-[#0090ca] transition rounded-md">
                                   <div className="flex">
     
@@ -46,7 +47,7 @@ export default function Departments(){
 
                                   </div>
                                 </div>
-                            </li>
+                            </Link>
 
                             <li className="border-b" >
                                 <div className="group w-full h-30  hover:bg-[#0090ca] transition rounded-md">
@@ -206,11 +207,11 @@ export default function Departments(){
                         </ul>
                         
                         
-                            <button className="flex text-[15px] px-7 py-2 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Departments <IoMdArrowForward className="  mt-1 ml-2" /></button>
+                            <Link href="/department" className="flex w-50 text-[15px] px-7 py-2 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Departments <IoMdArrowForward className="  mt-1 ml-2" /></Link>
                             
                         
                     </div>
-                    <div className=" w-[50%] h-250 relative">
+                    <div className=" w-[50%] h-250 relative [&>img]:z-0">
                         <img src="/1726286351f8hIn.png" alt="" className=" absolute top-37 left-28" />
                         <img src="/1726286362lttk1.png" alt="" className=" absolute top-33 right-30" />
                         <img src="/1726286375CNPf6.png" alt="" className=" absolute top-78 left-70" />

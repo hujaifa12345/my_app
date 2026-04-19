@@ -8,7 +8,7 @@ import { CgProfile } from "react-icons/cg";
 export default function LogoContact(){
   return(
    
-    <div className="w-85/100 h-[100px] flex justify-between mx-auto  ">
+    <div className="w-85/100 h-[100px] flex justify-between mx-auto border-b-[1px] border-gray-300  ">
       <Link href="/" className="h-[60px] my-auto">
         <img src="/logo.svg" alt="company logo" className="h-[60px] my-auto" />
       </Link>  

@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
@@ -38,7 +39,7 @@ export default function Doctors(){
                 <div className="flex items-end mb-7">
                     <IoIosArrowBack className="  mr-5 h-9.5 w-9.5 rounded-full p-3 text-white bg-[#0090ca] hover:bg-[#31b3a4] transition duration-100"/>
                     <IoIosArrowForward className="  mr-5 h-9.5 w-9.5 rounded-full p-3 text-white bg-[#0090ca] hover:bg-[#31b3a4] transition duration-100"/>
-                    <button className="flex text-[15px] px-7 py-2 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Doctors <IoMdArrowForward className="  mt-1 ml-2" /></button>
+                    <Link href="/doctors" className="flex text-[15px] px-7 py-2 bg-[#0090ca] text-white font-bold rounded-3xl hover:bg-[#31b3a4] transition ">All Doctors <IoMdArrowForward className="  mt-1 ml-2" /></Link>
                 </div>
             </div> 
             <div className="h-[40%] w-full overflow-visible">

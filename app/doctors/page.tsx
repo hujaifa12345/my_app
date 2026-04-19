@@ -79,9 +79,11 @@ export default function Doctors(){
                 </div>
                 <div className="grid grid-cols-4 gap-8 justify-around w-full mb-40">
                     {doctors.map((doc)=>(
-                    <div 
+                    <Link
+                        href={`/doctors/${doc.id}`}
                         key={doc.id}
-                        className="h-130 w-95 py-10 px-7 bg-[#0B3C66] rounded-md">
+                        className="h-130 w-95 py-10 px-7 bg-[#0B3C66] rounded-md"
+                        >
                         <img 
                             src={doc.image} 
                             alt={doc.name}
@@ -91,7 +93,7 @@ export default function Doctors(){
                         <span className="text-sm text-gray-400">{doc.department}</span>
                         <h2 className="text-white font-bold">{doc.name}</h2>
                         <span className="text-sm text-gray-400">{doc.designation}</span>
-                    </div>
+                    </Link>
                     ))}
 
                 </div>
