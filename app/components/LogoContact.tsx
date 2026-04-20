@@ -22,7 +22,7 @@ export default function LogoContact(){
 
         <li><button className="bg-[#0090ca] text-[16px] text-amber-50 px-[6px] py-[6px] rounded-full hover:bg-[#31b3a4] hover:text-white transition "><HiOutlineSearch className="text-2xl"/> </button></li>
 
-        <li><button className="bg-[#0090ca] text-[16px] text-amber-50 px-[6px] py-[6px] rounded-full hover:bg-[#31b3a4] hover:text-white transition"><CgProfile className="text-2xl" /></button></li>
+        <li><Link href="/logInPage" className="flex items-center justify-center h-9 w-9 bg-[#0090ca] text-[16px] text-amber-50  rounded-full hover:bg-[#31b3a4] hover:text-white transition"><CgProfile className="text-2xl" /></Link></li>
       </ul>
     </div> 
     

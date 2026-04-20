@@ -43,7 +43,7 @@ export default function NavBar(){
                         <div className="flex justify-between w-[85%] mx-auto h-[88%] [&>ul>li]:my-5 [&>ul>li]:hover:text-[#0090ca]">
                             
                             <ul>
-                                <li>Diagnostic and Interventional Radiology</li>
+                                <li><Link href="/diagnostic-and-Interventional-Radiology">Diagnostic and Interventional Radiology</Link></li>
                                 <li>Anesthesiology</li>
                                 <li>Cardiothoracic & Vascular Surgery</li>
                                 <li>Clinical & Interventional Cardiology</li>
