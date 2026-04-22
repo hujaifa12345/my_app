@@ -16,7 +16,7 @@ export default function NavBar(){
 
 
     return(
-        <div className="sticky top-0 backdrop-blur-md bg-white/70 transition duration-1000 z-11">
+        <div className="sticky top-0 backdrop-blur-md bg-white/70 transition duration-1000 z-11 ">
             <ul className="flex items-center w-85/100 h-[65px] mx-auto justify-between [&>li]:text-gray-800 [&>li]:font-bold [&>li]:px-0 [&>li]:pt-5 [&>li]:h-16.75 [&>li]:text-[15px] [&>li]:hover:text-[#0090ca] [&>li]:hover:scale-106  ">
                 <li>
                     <Link 
@@ -44,7 +44,7 @@ export default function NavBar(){
                             
                             <ul>
                                 <li><Link href="/diagnostic-and-Interventional-Radiology">Diagnostic and Interventional Radiology</Link></li>
-                                <li>Anesthesiology</li>
+                                <li><Link href="/isLoading">Anesthesiology</Link></li>
                                 <li>Cardiothoracic & Vascular Surgery</li>
                                 <li>Clinical & Interventional Cardiology</li>
                                 <li>Neuromedicine & Interventional Neurology</li>

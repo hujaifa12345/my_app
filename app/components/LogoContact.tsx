@@ -3,7 +3,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineComment } from "react-icons/ai";
 import { HiOutlineSearch } from "react-icons/hi";
-import { CgProfile } from "react-icons/cg";
+import { AiOutlineUser } from "react-icons/ai";
 
 export default function LogoContact(){
   return(
@@ -20,9 +20,9 @@ export default function LogoContact(){
 
         <li><button className=" flex bg-[#0090ca] text-[16px] text-amber-50 px-[25px] py-[6px] rounded-3xl hover:bg-[#31b3a4] hover:text-white transition ">Ask a Question <AiOutlineComment className=" text-[26px] mt- ml-1.5"/> </button></li>
 
-        <li><button className="bg-[#0090ca] text-[16px] text-amber-50 px-[6px] py-[6px] rounded-full hover:bg-[#31b3a4] hover:text-white transition "><HiOutlineSearch className="text-2xl"/> </button></li>
+        <li><Link href="/logInPage" className="flex items-center justify-center h-9 w-9 bg-[#0090ca] text-[16px] text-amber-50  rounded-full hover:bg-[#31b3a4] hover:text-white transition"><HiOutlineSearch className="text-2xl" /></Link></li>
 
-        <li><Link href="/logInPage" className="flex items-center justify-center h-9 w-9 bg-[#0090ca] text-[16px] text-amber-50  rounded-full hover:bg-[#31b3a4] hover:text-white transition"><CgProfile className="text-2xl" /></Link></li>
+        <li><Link href="/logInPage" className="flex items-center justify-center h-9 w-9 bg-[#0090ca] text-[16px] text-amber-50  rounded-full hover:bg-[#31b3a4] hover:text-white transition"><AiOutlineUser className="text-2xl" /></Link></li>
       </ul>
     </div> 
     
