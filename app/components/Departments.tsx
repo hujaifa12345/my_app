@@ -12,7 +12,7 @@ export default function Departments(){
 
     
     return(
-        <div className="flex items-center justify-center w-full h-400 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg')"}}>
+        <div className="flex items-center justify-center w-full h-400 bg-fixed bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg')"}}>
         
             <div className="  bg- w-[85%] h-300 border-t ">
                 <div className="w-full h-50 ">
