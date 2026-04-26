@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <div className="relative w-full h-190 overflow-hidden flex items-end">
 
-      {/* SLIDER BACKGROUND */}
+      {/* SLIDER BACKGROUND. */}
       <div
         className="absolute top-0 left-0 w-full h-full flex transition-transform duration-700 ease-in-out"
         style={{
