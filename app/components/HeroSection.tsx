@@ -29,7 +29,7 @@ export default function Hero() {
 
       {/* SLIDER BACKGROUND. */}
       <div
-        className="absolute top-0 left-0 w-full h-full flex transition-transform duration-700 ease-in-out"
+        className="absolute top-0 w-full h-full flex transition-transform duration-700 ease-in-out"
         style={{
           transform: `translateX(-${index * 100}%)`,
         }}
