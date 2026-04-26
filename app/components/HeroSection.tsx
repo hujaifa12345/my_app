@@ -36,7 +36,6 @@ export default function Hero() {
       >
         {images.map((img, i) => (
           <div
-          
             key={i}
             className="w-full h-full flex-shrink-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${img})` }}
