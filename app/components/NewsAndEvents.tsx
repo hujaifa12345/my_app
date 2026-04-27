@@ -23,8 +23,8 @@ return(
         </div>
 
         <div className="h-180 w-full ">
-            <ul className="flex justify-between h-full w-full [&>li]:max-h-full [&>li]:w-[24%] [&_div]:rounded-md ">
-                <li>
+            <div className="flex justify-between h-full w-full [&>li]:max-h-full [&>li]:w-[24%] [&_div]:rounded-md ">
+                <Link href="/newsAndEventDetails">
                     <div className="w-full max-h-[70%] min-h-[50%] overflow-hidden">
                         <img src="/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg" alt="" className=" w-full hover:scale-105  duration-500"/>
                     </div>
@@ -33,9 +33,9 @@ return(
                         <h2>Date & Time</h2>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, perferendis?</p>
-                </li>
+                </Link>
 
-                <li>
+                <Link href="/NewsAndEventDetails">
                         <div className="w-full max-h-[70%] min-h-[50%] overflow-hidden">
                             <img src="/what-is-ambulatory-care-nursing.jpg" alt="" className=" w-full hover:scale-105 duration-500"/>
                         </div>
@@ -44,9 +44,9 @@ return(
                         <h2>Date & Time</h2>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, perferendis?</p>
-                </li>
+                </Link>
 
-                <li>
+                <Link href="/NewsAndEventDetails">
                         <div className="w-full max-h-[70%] min-h-[50%] overflow-hidden">
                             <img src="/Screenshot 2026-03-29 145631.png" alt="" className=" w-full hover:scale-105 duration-500"/>
                         </div>
@@ -55,9 +55,9 @@ return(
                         <h2>Date & Time</h2>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, perferendis?</p>
-                </li>
+                </Link>
 
-                <li>
+                <Link href="/NewsAndEventDetails">
                         <div className="w-full max-h-[70%] min-h-[50%] overflow-hidden">
                             <img src="/self-care-for-nurses.jpg" alt="" className=" w-full hover:scale-105 duration-500"/>
                         </div>
@@ -66,9 +66,9 @@ return(
                         <h2>Date & Time</h2>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, perferendis?</p>
-                </li>
+                </Link>
                 
-            </ul>
+            </div>
 
         </div>
 
