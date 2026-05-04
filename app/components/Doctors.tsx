@@ -44,8 +44,9 @@ export default function Doctors(){
             </div> 
             <div className="h-[40%] w-full overflow-visible">
                 <div className="flex justify-between h-full">
+
                      {doctors.slice(0, 6).map((doc)=>(
-                        <div 
+                        <Link href={`/doctors/${doc.id}`} 
                          key={doc.id}
                          className="h-full w-60 bg-[#0B3C66] text-white text-center px-6 py-6 rounded-xl hover:scale-104 transition duration-300"
                         >
@@ -68,7 +69,7 @@ export default function Doctors(){
                                 {doc.designation}
                             </p>
 
-                        </div>
+                        </Link>
                     ))} 
                 </div>
             </div>

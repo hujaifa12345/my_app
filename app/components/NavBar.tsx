@@ -108,7 +108,7 @@ export default function NavBar(){
                         <div className="flex justify-between w-[85%] mx-auto h-[88%] [&>ul>li]:my-5 [&>ul>li]:hover:text-[#0090ca]">
                             
                             <ul>
-                                <li>Diagnostic and Interventional Radiology</li>
+                                <li><Link href="/registration">Diagnostic and Interventional Radiology</Link></li>
                                 <li>Anesthesiology</li>
                                 <li>Cardiothoracic & Vascular Surgery</li>
                                 <li>Clinical & Interventional Cardiology</li>
@@ -175,6 +175,13 @@ export default function NavBar(){
                     <Link href="/gallery"
                     className={`${pathname === "/gallery" ? "text-[#0090ca] text-[16px]" : "text-gray-800"} hover:text-[#0090ca]`}
                     >Gallery 
+                    </Link>
+                </li>
+
+                <li>
+                    <Link href="/getStadiumApi"
+                    className={`${pathname === "/gallery" ? "text-[#0090ca] text-[16px]" : "text-gray-800"} hover:text-[#0090ca]`}
+                    >Get Stadium Api 
                     </Link>
                 </li>
 

@@ -7,6 +7,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { useRouter } from "next/navigation";
 
 
 
@@ -25,13 +26,21 @@ export default function Doctors(){
 
     const [doctors, setDoctors] = useState<Doctors[]>([]);
 
+    const router = useRouter();
+
 
     useEffect(()=>{
         fetch("/data/doctors.json")
         .then((res)=>res.json())
         .then((data)=>setDoctors(data))
     }, [])
-
+ 
+    useEffect(()=>{
+        const user = localStorage.getItem("usr")
+    if(!user){
+        router.push("/logInPage")
+    }
+    },[])
 
     return(
         <div>

@@ -12,19 +12,19 @@ import { IoCalendarNumberSharp } from "react-icons/io5";
 
 export default async function DoctorDetails(
   //{ params }: { params: Promise<{ id: string }> }
-  { params }: { params:{ id: string } }
+  {params}:{params:{id:string}}
 ) {
 
     //const { id } = await params   // 👈 THIS IS THE FIX
-
-    const res = await fetch("http://localhost:3000/data/doctors.json", {
-        cache: "no-store"
-    })
+    console.log(params)
+    const res = await fetch("http://localhost:3000/data/doctors.json",
+        {cache:"no-store"}
+    )
 
     const doctors = await res.json()
 
     // const doctor = doctors.find((d: any) => String(d.id) === String(id))
-    const doctor = doctors.find((d: any) => String(d.id) === String(params.id))
+    const doctor = await doctors.find((d:any)=>String(d.id)===String(params.id))
 
     if (!doctor) {
         return <h1>Doctor Not Found</h1>

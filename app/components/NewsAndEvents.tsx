@@ -23,7 +23,7 @@ return(
         </div>
 
         <div className="h-180 w-full ">
-            <div className="flex justify-between h-full w-full [&>li]:max-h-full [&>li]:w-[24%] [&_div]:rounded-md ">
+            <div className="flex justify-between gap-3 h-full w-full [&>Link]:max-h-full [&>Link]:w-[24%] [&_div]:rounded-md ">
                 <Link href="/newsAndEventDetails">
                     <div className="w-full max-h-[70%] min-h-[50%] overflow-hidden">
                         <img src="/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg" alt="" className=" w-full hover:scale-105  duration-500"/>
